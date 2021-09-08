@@ -2,7 +2,11 @@ import React from "react";
 import "./App.css";
 
 function App() {
+<<<<<<< HEAD
   console.log('initial commit')
+=======
+  console.log('intial commit');
+>>>>>>> 3f7ed81fb65f0febde7c219d680d482ba310d2b3
   return (
     <div className="App">
       <p>
