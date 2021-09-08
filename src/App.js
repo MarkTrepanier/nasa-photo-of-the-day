@@ -1,12 +1,13 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import "./App.css";
+import Axios from 'axios';
 
 function App() {
-<<<<<<< HEAD
-  console.log('initial commit')
-=======
-  console.log('intial commit');
->>>>>>> 3f7ed81fb65f0febde7c219d680d482ba310d2b3
+  //useEffect(()=>{
+    Axios.get('https://api.nasa.gov/planetary/apod?api_key=kmVnTgTEvlAXqOUIafKvfWQdQjIhGSJIyNgvp2DC')
+    .then(res=>console.log(res.data))
+    .catch(er=>console.log(er));
+  //})
   return (
     <div className="App">
       <p>
