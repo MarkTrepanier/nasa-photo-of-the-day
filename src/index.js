@@ -5,7 +5,6 @@ import App from "./App";
 import theme from './theme';
 import {ThemeProvider} from 'styled-components';
 
-
 ReactDOM.render(
     <ThemeProvider theme = {theme}>
         <App />
